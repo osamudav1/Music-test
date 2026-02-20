@@ -143,7 +143,7 @@ async def start_gp(client, message: Message, _):
 async def api_console_cb(client, query: CallbackQuery):
     await query.message.edit_caption(
         caption="""
-🚀 **NEXGENBOTS API Console**
+🚀 **Music By Osamu**
 
 Fast, reliable & developer-friendly API access.
 
@@ -186,8 +186,8 @@ Use the console below 👇
             [
                 [
                     InlineKeyboardButton(
-                        "🛒 Open API Console",
-                        url="https://console.nexgenbots.xyz",
+                        "⚜️Owner⚜️",
+                        url="https://t.me/osamu1123",
                     )
                 ],
                 [
@@ -264,4 +264,5 @@ async def welcome(client, message: Message):
                 await message.stop_propagation()
 
         except Exception as ex:
+
             print(ex)
